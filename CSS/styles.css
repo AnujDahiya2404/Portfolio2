@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("../IMAGES/whitebg.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+@media (min-width: 1000px) {
+  /* appear only on mobile */
+  .mobile {
+    display: none
+  }
+}
+
+@media (max-width: 1000px) {
+  /* appear only on desktop */
+  .desktop {
+    display: none
+  }
+}
+
+.sidebar-top {
+    height: 80px;
+    width: 100wh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+.navbar-brand img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50px;
+}
+
+.sidebar {
+    height: 100vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.contentbar {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.frosted {
+    backdrop-filter: blur(8px);
+}
+
+.shadow-black {
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.corner-round {
+    border-radius: 15px;
+}
+
+.main-block {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.logo {
+    width: 108%;
+}
+
+.logo img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    height: 70px;
+}
+
+.intro {
+    margin-top: 15px;
+    height: auto;
+}
+
+.resume-button .btn{
+    border-color: black;
+}
+
+.resume-button .btn-icon{
+    border: 0;
+}
+.intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.introtext {
+    font-family: "Press Start 2P";
+    color: black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.introheading {
+    font-size: 50px;
+}
+
+.intropara {
+    font-size: 25px;
+}
+
+.skills {
+    font-family: "Press Start 2P";
+}
+
+.skillhead {
+    font-size: 15px;
+    text-align: center;
+}
+
+.skillheading {
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.skill-box {
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: auto;
+}
+
+.myskill {
+    border: 2px solid black;
+    padding-top: 8px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 15px;
+}
+
+.myskillprogress {
+    border-bottom-left-radius: 15px;
+    margin:8px 4px 0px 4px;
+    background-color: black;
+    height: 4px;
+}
+
+.javaskill, .sqlskill {
+    width:75%;
+}
+
+.cskill {
+    width: 60%;
+}
+
+.pythonskill {
+    width: 60%;
+}
+
+.htmlskill {
+    width: 90%;
+}
+
+.cssskill {
+    width: 90%;
+}
+
+.bootstrapskill {
+    width: 80%;
+}
+
+.jsskill, .jqskill {
+    width: 60%;
+}
